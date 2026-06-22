@@ -1,11 +1,11 @@
 export default Card;
 
-const Card = () => {
+function Card({ name, price, brand }) {
   return (
     <div>
-      <h2>무선 키보드</h2>
-      <p>39000</p>
-      <p>EZTECH</p>
+      <h2>{name}</h2>
+      <p>{price}</p>
+      <p>{brand}</p>
     </div>
   );
-};
+}
