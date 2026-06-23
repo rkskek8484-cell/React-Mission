@@ -1,5 +1,3 @@
-export default Card;
-
 function Card({ name, price, brand }) {
   return (
     <div>
@@ -9,3 +7,5 @@ function Card({ name, price, brand }) {
     </div>
   );
 }
+
+export default Card;
